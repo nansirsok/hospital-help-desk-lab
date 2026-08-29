@@ -39,6 +39,30 @@ The IT shared folder is restricted to members of the `GG-IT` security group.
 - Daniel Ortiz is a member of `GG-Radiology` and receives an Access Denied message when attempting to access the same share.
 - The expected denial was verified through Active Directory group membership and documented in ServiceNow.
 
+## Selected Screenshots
+
+### Department OU Structure
+
+![Department OU structure](screenshots/13-ghm-department-ou-structure.png)
+
+### IT Shared Folder
+
+![IT share created and shared](screenshots/18-ghm-it-share-created-and-shared.png)
+
+### Access Verification
+
+Maya Chen, a member of `GG-IT`, can access the IT share.
+
+![Maya authorized IT share access](screenshots/19-maya-authorized-it-share-access.png)
+
+Daniel Ortiz is not a member of `GG-IT`, so access is correctly denied.
+
+![Daniel denied IT share access](screenshots/20-daniel-it-share-access-denied.png)
+
+### Ticket Resolution
+
+![Resolved ServiceNow incident](screenshots/23-inc0010002-resolved.png)
+
 ## Ticket Example
 
 **INC0010002 — Unable to access IT shared folder**
