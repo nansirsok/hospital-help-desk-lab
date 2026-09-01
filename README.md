@@ -41,6 +41,14 @@ The IT shared folder is restricted to members of the `GG-IT` security group.
 
 ## Selected Screenshots
 
+### Ticket Example
+
+**INC0010002 — Unable to access IT shared folder**
+
+Daniel Ortiz reported that he could not access the IT shared folder. The issue was reproduced from the domain workstation, and his group membership was reviewed.
+
+The investigation confirmed that Daniel belongs to `GG-Radiology`, while the IT share is restricted to `GG-IT`. No permission changes were made because access was functioning as designed. The incident was documented with internal work notes and resolved.
+
 ### Department OU Structure
 
 ![Department OU structure](screenshots/13-ghm-department-ou-structure.png)
@@ -63,21 +71,17 @@ Daniel Ortiz is not a member of `GG-IT`, so access is correctly denied.
 
 ![Resolved ServiceNow incident](screenshots/23-inc0010002-resolved.png)
 
-## Ticket Example
-
-**INC0010002 — Unable to access IT shared folder**
-
-Daniel Ortiz reported that he could not access the IT shared folder. The issue was reproduced from the domain workstation, and his group membership was reviewed.
-
-The investigation confirmed that Daniel belongs to `GG-Radiology`, while the IT share is restricted to `GG-IT`. No permission changes were made because access was functioning as designed. The incident was documented with internal work notes and resolved.
-
 ---
 
 ## Password Reset Scenario
 
-### Password Reset Scenario
+### Ticket Example
 
-Marcus Lee reported that he could not sign in because he forgot his password. I reset the account in Active Directory, required a password change at next logon, and verified that Marcus could sign in successfully. The request was documented and resolved in ServiceNow.
+**INC0010004 — Reset my password**
+
+Marcus Lee reported that he could not sign in to GHM-PC01 after forgetting his password. His identity was verified, and the account was reviewed in AD.
+
+The password was reset, the user was required to change the temporary password at next logon, and successful access to the assigned workstation was confirmed. The incident was documented and resolved in ServiceNow.
 
 #### Password Reset in Active Directory
 
@@ -94,14 +98,6 @@ Marcus Lee reported that he could not sign in because he forgot his password. I 
 #### ServiceNow Resolution
 
 ![Marcus password-reset ticket resolved in ServiceNow](screenshots/27-marcus-password-reset-resolved.png)
-
-## Ticket Example
-
-**INC0010004 — Reset my password**
-
-Marcus Lee reported that he could not sign in to GHM-PC01 after forgetting his password. His identity was verified, and the account was reviewed in AD.
-
-The password was reset, the user was required to change the temporary password at next logon, and successful access to the assigned workstation was confirmed. The incident was documented and resolved in ServiceNow.
 
 ---
 
