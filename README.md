@@ -81,6 +81,26 @@ This repository includes sanitized screenshots showing:
 - IT-share creation and access testing
 - ServiceNow investigation notes and resolution
 
+### Password Reset Scenario
+
+Marcus Lee reported that he could not sign in because he forgot his password. I reset the account in Active Directory, required a password change at next logon, and verified that Marcus could sign in successfully. The request was documented and resolved in ServiceNow.
+
+#### Password Reset in Active Directory
+
+![Marcus Lee password reset in Active Directory](screenshots/24-marcus-password-reset.png)
+
+#### Successful Login
+
+![Marcus Lee successfully signed in to GHM-PC01](screenshots/25-marcus-successful-login.png)
+
+#### ServiceNow Assignment
+
+![Marcus password-reset ticket assigned to GHM Service Desk](screenshots/26-marcus-assigned-ghm-service-desk.png)
+
+#### ServiceNow Resolution
+
+![Marcus password-reset ticket resolved in ServiceNow](screenshots/27-marcus-password-reset-resolved.png)
+
 ## Next Steps
 
 - Add more Help Desk ticket scenarios
