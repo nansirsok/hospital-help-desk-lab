@@ -83,19 +83,19 @@ Marcus Lee reported that he could not sign in to GHM-PC01 after forgetting his p
 
 The password was reset, the user was required to change the temporary password at next logon, and successful access to the assigned workstation was confirmed. The incident was documented and resolved in ServiceNow.
 
-#### Password Reset in Active Directory
+### Password Reset in Active Directory
 
 ![Marcus Lee password reset in Active Directory](screenshots/24-marcus-password-reset.png)
 
-#### Successful Login
+### Successful Login
 
 ![Marcus Lee successfully signed in to GHM-PC01](screenshots/25-marcus-successful-login.png)
 
-#### ServiceNow Assignment
+### ServiceNow Assignment
 
 ![Marcus password-reset ticket assigned to GHM Service Desk](screenshots/26-marcus-assigned-ghm-service-desk.png)
 
-#### ServiceNow Resolution
+### ServiceNow Resolution
 
 ![Marcus password-reset ticket resolved in ServiceNow](screenshots/27-marcus-password-reset-resolved.png)
 
