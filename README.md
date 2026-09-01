@@ -71,16 +71,6 @@ Daniel Ortiz reported that he could not access the IT shared folder. The issue w
 
 The investigation confirmed that Daniel belongs to `GG-Radiology`, while the IT share is restricted to `GG-IT`. No permission changes were made because access was functioning as designed. The incident was documented with internal work notes and resolved.
 
-## Documentation
-
-This repository includes sanitized screenshots showing:
-
-- Domain controller and Active Directory setup
-- Department OU and security-group structure
-- Domain user and workstation verification
-- IT-share creation and access testing
-- ServiceNow investigation notes and resolution
-
 ### Password Reset Scenario
 
 Marcus Lee reported that he could not sign in because he forgot his password. I reset the account in Active Directory, required a password change at next logon, and verified that Marcus could sign in successfully. The request was documented and resolved in ServiceNow.
@@ -100,6 +90,25 @@ Marcus Lee reported that he could not sign in because he forgot his password. I 
 #### ServiceNow Resolution
 
 ![Marcus password-reset ticket resolved in ServiceNow](screenshots/27-marcus-password-reset-resolved.png)
+
+### Ticket Example
+
+**INC0010004 — Reset my password**
+
+Marcus Lee reported that he could not sign in to GHM-PC01 after forgetting his password. His identity was verified, and the account was reviewed in AD.
+
+The password was reset, the user was required to change the temporary password at next logon, and successful access to the assigned workstation was confirmed. The incident was documented and resolved in ServiceNow.
+
+## Documentation
+
+This repository includes sanitized screenshots and notes documenting the lab as a whole:
+
+- Domain controller and Active Directory setup
+- Department OU and security-group structure
+- Domain user and workstation verification
+- IT-share creation and access testing
+- Password reset and account support procedures
+- ServiceNow investigation notes and resolution
 
 ## Next Steps
 
