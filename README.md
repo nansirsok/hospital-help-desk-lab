@@ -2,11 +2,29 @@
 
 ## About This Lab
 
-Gold Harbor Medical is a fictional hospital IT environment I built as a home lab to practice support tasks in a hands-on way.
+Gold Harbor Medical is a fictional hospital IT environment I built as a home lab to practice help desk, service desk, system administration, and troubleshooting workflows.
 
-I am using this project to learn how Active Directory, Windows workstations, shared-folder permissions, and ticket documentation fit together in a basic Help Desk workflow. It is a work in progress, and I plan to add new scenarios as I learn.
+This project demonstrates how common support tasks connect across Active Directory, Windows workstations, shared-folder permissions, account administration, network services, and ticket documentation.
 
-> All organization names, users, systems, and scenarios in this project are fictional. Screenshots are sanitized before being shared.
+The lab is a work in progress. New completed ticket scenarios will be added over time.
+
+> All organization names, users, systems, and scenarios are fictional. Screenshots are sanitized before being shared.
+
+## Lab Scope
+
+This home lab is used to practice:
+
+- User and account support
+- Password resets and account lockouts
+- Active Directory administration
+- Windows workstation support
+- Department organizational units and security groups
+- Shared-folder permissions
+- Domain user and workstation verification
+- Basic DNS and network troubleshooting
+- ServiceNow incident documentation
+- Troubleshooting notes and resolution records
+- Sanitizing technical evidence
 
 ## Environment
 
@@ -26,95 +44,58 @@ I am using this project to learn how Active Directory, Windows workstations, sha
 - Creating users and department security groups
 - Joining a Windows workstation to the domain
 - Organizing workstations in Active Directory
-- Creating and testing a restricted IT shared folder
-- Verifying both authorized and denied access
-- Creating, documenting, and resolving a ServiceNow incident
+- Creating and testing restricted shared folders
+- Verifying authorized and denied access
+- Resetting a domain user password
+- Requiring a password change at next logon
+- Verifying successful workstation access
+- Creating, documenting, and resolving ServiceNow incidents
 - Sanitizing technical screenshots for documentation
 
-## Completed Scenario: Restricted IT Share
+## Help Desk Workflow
 
-The IT shared folder is restricted to members of the `GG-IT` security group.
+Each ticket scenario follows a basic support workflow:
 
-- Maya Chen is a member of `GG-IT` and can access `\\GHM-DC01\IT`.
-- Daniel Ortiz is a member of `GG-Radiology` and receives an Access Denied message when attempting to access the same share.
-- The expected denial was verified through Active Directory group membership and documented in ServiceNow.
-
-## Selected Screenshots
-
-### Ticket Example
-
-**INC0010002 — Unable to access IT shared folder**
-
-Daniel Ortiz reported that he could not access the IT shared folder. The issue was reproduced from the domain workstation, and his group membership was reviewed.
-
-The investigation confirmed that Daniel belongs to `GG-Radiology`, while the IT share is restricted to `GG-IT`. No permission changes were made because access was functioning as designed. The incident was documented with internal work notes and resolved.
-
-### Department OU Structure
-
-![Department OU structure](screenshots/13-ghm-department-ou-structure.png)
-
-### IT Shared Folder
-
-![IT share created and shared](screenshots/18-ghm-it-share-created-and-shared.png)
-
-### Access Verification
-
-Maya Chen, a member of `GG-IT`, can access the IT share.
-
-![Maya authorized IT share access](screenshots/19-maya-authorized-it-share-access.png)
-
-Daniel Ortiz is not a member of `GG-IT`, so access is correctly denied.
-
-![Daniel denied IT share access](screenshots/20-daniel-it-share-access-denied.png)
-
-### Ticket Resolution
-
-![Resolved ServiceNow incident](screenshots/23-inc0010002-resolved.png)
+1. Review the reported issue
+2. Verify the user’s identity
+3. Reproduce or investigate the problem
+4. Make the appropriate administrative change
+5. Test the result
+6. Document the work in ServiceNow
+7. Resolve the incident
+8. Add sanitized evidence to the repository
 
 ---
 
-## Password Reset Scenario
+## Completed Ticket Scenarios
 
-### Ticket Example
+Each completed ticket has its own folder containing the ticket write-up, investigation, resolution, and evidence links.
 
-**INC0010004 — Reset my password**
-
-Marcus Lee reported that he could not sign in to GHM-PC01 after forgetting his password. His identity was verified, and the account was reviewed in AD.
-
-The password was reset, the user was required to change the temporary password at next logon, and successful access to the assigned workstation was confirmed. The incident was documented and resolved in ServiceNow.
-
-### Password Reset in Active Directory
-
-![Marcus Lee password reset in Active Directory](screenshots/24-marcus-password-reset.png)
-
-### Successful Login
-
-![Marcus Lee successfully signed in to GHM-PC01](screenshots/25-marcus-successful-login.png)
-
-### ServiceNow Assignment
-
-![Marcus password-reset ticket assigned to GHM Service Desk](screenshots/26-marcus-assigned-ghm-service-desk.png)
-
-### ServiceNow Resolution
-
-![Marcus password-reset ticket resolved in ServiceNow](screenshots/27-marcus-password-reset-resolved.png)
+1. [Ticket 01 — Restricted IT Share](scenarios/01-restricted-it-share/README.md)
+2. [Ticket 02 — Password Reset](scenarios/02-password-reset/README.md)
 
 ---
 
 ## Documentation
 
-This repository includes sanitized screenshots and notes documenting the lab as a whole:
+This repository includes sanitized screenshots and notes documenting the hospital help desk lab as a whole:
 
 - Domain controller and Active Directory setup
-- Department OU and security-group structure
-- Domain user and workstation verification
-- IT-share creation and access testing
-- Password reset and account support procedures
-- ServiceNow investigation notes and resolution
+- Department organizational units
+- Security-group structure
+- Domain users and workstation verification
+- Shared-folder creation and access testing
+- Account and password-support procedures
+- ServiceNow investigation notes
+- ServiceNow resolution records
+- Troubleshooting workflows
+- Sanitized portfolio evidence
 
 ## Next Steps
 
-- Add more Help Desk ticket scenarios
-- Practice password resets, account lockouts, and group-access requests
+- Add more help desk ticket scenarios
+- Practice account lockouts and account unlocks
+- Practice group-access requests
+- Practice basic DNS and network troubleshooting
 - Add documented troubleshooting procedures
 - Continue improving the lab as I learn
