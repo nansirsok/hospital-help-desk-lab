@@ -73,6 +73,7 @@ Each completed ticket has its own folder containing the ticket write-up, investi
 
 1. [Ticket 01 — Restricted IT Share](scenarios/01-restricted-it-share/README.md)
 2. [Ticket 02 — Password Reset](scenarios/02-password-reset/README.md)
+3. [Ticket 03 — Account Lockout](scenarios/03-account-lockout/README.md)
 
 ---
 
