@@ -75,6 +75,7 @@ Each completed ticket has its own folder containing the ticket write-up, investi
 2. [Ticket 02 — Password Reset](scenarios/02-password-reset/README.md)
 3. [Ticket 03 — Account Lockout](scenarios/03-account-lockout/README.md)
 4. [Ticket 04 — DNS Resolution](scenarios/04-dns-resolution/README.md)
+5. [Ticket 05 — Workstation Network Connectivity](scenarios/05-network-connectivity/README.md)
 
 ---
 
