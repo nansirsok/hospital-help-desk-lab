@@ -51,6 +51,9 @@ This home lab is used to practice:
 - Verifying successful workstation access
 - Creating, documenting, and resolving ServiceNow incidents
 - Sanitizing technical screenshots for documentation
+- Troubleshooting DNS and workstation network connectivity
+- Diagnosing printer queues and Print Spooler issues
+- Configuring and testing shared network resources
 
 ## Help Desk Workflow
 
@@ -97,9 +100,9 @@ This repository includes sanitized screenshots and notes documenting the hospita
 
 ## Next Steps
 
-- Add more help desk ticket scenarios
-- Practice account lockouts and account unlocks
-- Practice group-access requests
-- Practice basic DNS and network troubleshooting
+- Add more Help Desk ticket scenarios
+- Practice software and application troubleshooting
+- Practice VPN and remote-access support
+- Practice email and Microsoft 365 troubleshooting
 - Add documented troubleshooting procedures
 - Continue improving the lab as I learn
