@@ -76,6 +76,7 @@ Each completed ticket has its own folder containing the ticket write-up, investi
 3. [Ticket 03 — Account Lockout](scenarios/03-account-lockout/README.md)
 4. [Ticket 04 — DNS Resolution](scenarios/04-dns-resolution/README.md)
 5. [Ticket 05 — Workstation Network Connectivity](scenarios/05-network-connectivity/README.md)
+6. [Ticket 06 — Printer Troubleshooting](scenarios/06-printer-troubleshooting/README.md)
 
 ---
 
