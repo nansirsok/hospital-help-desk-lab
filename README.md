@@ -54,6 +54,7 @@ This home lab is used to practice:
 - Troubleshooting DNS and workstation network connectivity
 - Diagnosing printer queues and Print Spooler issues
 - Configuring and testing shared network resources
+- Troubleshooting application launch failures and software issues
 
 ## Help Desk Workflow
 
@@ -80,6 +81,7 @@ Each completed ticket has its own folder containing the ticket write-up, investi
 4. [Ticket 04 — DNS Resolution](scenarios/04-dns-resolution/README.md)
 5. [Ticket 05 — Workstation Network Connectivity](scenarios/05-network-connectivity/README.md)
 6. [Ticket 06 — Printer Troubleshooting](scenarios/06-printer-troubleshooting/README.md)
+7. [Ticket 07 — Application Troubleshooting](scenarios/07-application-troubleshooting/README.md)
 
 ---
 
@@ -101,7 +103,6 @@ This repository includes sanitized screenshots and notes documenting the hospita
 ## Next Steps
 
 - Add more Help Desk ticket scenarios
-- Practice software and application troubleshooting
 - Practice VPN and remote-access support
 - Practice email and Microsoft 365 troubleshooting
 - Add documented troubleshooting procedures
