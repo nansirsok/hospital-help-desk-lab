@@ -82,6 +82,7 @@ Each completed ticket has its own folder containing the ticket write-up, investi
 5. [Ticket 05 — Workstation Network Connectivity](scenarios/05-network-connectivity/README.md)
 6. [Ticket 06 — Printer Troubleshooting](scenarios/06-printer-troubleshooting/README.md)
 7. [Ticket 07 — Application Troubleshooting](scenarios/07-application-troubleshooting/README.md)
+8. [Ticket 08 — VPN Connection Failure](scenarios/08-vpn-troubleshooting/README.md)
 
 ---
 
