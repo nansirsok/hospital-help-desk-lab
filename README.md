@@ -104,7 +104,7 @@ This repository includes sanitized screenshots and notes documenting the hospita
 ## Next Steps
 
 - Add more Help Desk ticket scenarios
-- Practice VPN and remote-access support
+- Expand VPN and remote-access support with a dedicated VPN gateway
 - Practice email and Microsoft 365 troubleshooting
 - Add documented troubleshooting procedures
 - Continue improving the lab as I learn
